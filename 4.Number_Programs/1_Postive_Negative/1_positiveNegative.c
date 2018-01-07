@@ -1,7 +1,7 @@
 /* Program to check whether a number is positive or negative
  * If the input number is greater than zero then its positive
  * Else it is negative
- * If the number is zero that it is neither positive nor negative
+ * If the number is zero then it is neither positive nor negative
  */
 
 #include <stdio.h>
