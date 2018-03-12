@@ -1,5 +1,5 @@
-/* C program to print all natural numbers from 1 to n
- * using While Loop
+/* C program to print all natural numbers form 1 to n
+ * using Do While loop
  */
 
 #include <stdio.h>
@@ -13,12 +13,12 @@ int main(void)
     scanf("%d", &end);
 
     i=1;
-    while (i<=end)
+    do 
     {
         printf("%d\n", i);
         i++;
 
-    }
+    }while (i<=end);
 
     return 0;
 
