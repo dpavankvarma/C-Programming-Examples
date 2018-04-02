@@ -1,3 +1,6 @@
+/* C program to check whether the number is even or odd
+ * using conditional operator
+ * */
 
 #include <stdio.h>
 

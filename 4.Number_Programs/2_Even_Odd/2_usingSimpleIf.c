@@ -1,4 +1,6 @@
-
+/* C program to check if a number is positive or negative
+ * using simple if statement
+ */
 #include <stdio.h>
 
 int main(void)
