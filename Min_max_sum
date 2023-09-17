@@ -1,0 +1,42 @@
+#include <assert.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    int i,j;
+       
+    long long int a[5],sum=0,sum2=0,c;
+    for(i=0;i<5;i++)
+    {
+        scanf("%lld",&a[i]);
+    }
+    for(i=0;i<5;i++)
+    {
+         for(j=i+1;j<5;j++)
+            {
+             if(a[i]<a[j])   
+             {
+        c=a[i];
+            a[i]=a[j];
+            a[j]=c;
+            }
+    }}
+    for(i=0;i<4;i++)
+    {
+        sum=sum+a[i];
+    }
+    for(i=1;i<=4;i++)
+    {
+        sum2=sum2+a[i];
+    }
+    printf("%lld ",sum2);
+    printf("%lld",sum);
+    return 0;
+}
